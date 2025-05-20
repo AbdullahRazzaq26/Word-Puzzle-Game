@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Puzzle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Word Puzzle</h1>
+      <p>Rearrange the letters to discover the hidden fruit. Think fast, click smart!</p>
+    </header>
+  
+    <div id="container"></div>
+    <div id="content"></div>
+  
+    <div class="btns">
+      <button onclick="reset()">Reset</button>
+      <button onclick="newWord()">New Word</button>
+      <button onclick="submit()">Submit Word</button>
+    </div>
+  
+    <div id="overlay"></div>
+    <div id="popup"></div>
+  
+    <script src="app.js"></script>
+  </body>
+</html>
